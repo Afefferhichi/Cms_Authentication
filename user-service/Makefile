@@ -1,0 +1,1 @@
+protoc -I. --go_out=plugins=grpc:$(GOPATH)/src/Cms_Authentication/user-service \proto/user/user.proto \proto/user/user.proto
